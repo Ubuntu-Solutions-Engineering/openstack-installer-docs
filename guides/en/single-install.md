@@ -9,8 +9,7 @@ Add the OpenStack installer ppa to your system.
 $ sudo apt-add-repository ppa:cloud-installer/stable
 $ sudo apt-get update
 ```
-
-> The host system must be capable of supporting KVM and nested KVM.
+!!! Note: The host system must be capable of supporting KVM and nested KVM.
 
 ## Hardware
 
@@ -20,7 +19,7 @@ The installer would work best with at least:
  * 100G HDD (SSD for optimal performance)
  * 8 CPUS
 
-> If running on a system with less than 12G of RAM expect to run into deployment issues early. Currently, 12G is the absolute lowest one can go to ensure a deployment will succeed.
+!!! Note: If running on a system with less than 12G of RAM expect to run into deployment issues early. Currently, 12G is the absolute lowest one can go to ensure a deployment will succeed.
 
 ## Installation
 
@@ -87,7 +86,7 @@ To uninstall and cleanup your system run the following
 $ sudo openstack-install -u
 ```
 
-> If it errors out during uninstall check out [Manually uninstalling Single Install](https://wiki.ubuntu.com/OpenStack/Installer/debugging)
+!!! Note: If it errors out during uninstall check out [Manually uninstalling Single Install](https://wiki.ubuntu.com/OpenStack/Installer/debugging)
 
 ## Advanced Usage
 
