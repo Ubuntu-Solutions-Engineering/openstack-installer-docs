@@ -125,7 +125,7 @@ If you want to change that layout to choose specific systems for a set of servic
 % sudo openstack-install --edit-placement
 ```
 
-This will show a text-mode UI for choosing where to place services. See [[https://wiki.ubuntu.com/OpenStack/Installer/service-placement|Placement UI Guide]] for details.
+This will show a text-mode UI for choosing where to place services. See [Placement UI Guide](https://wiki.ubuntu.com/OpenStack/Installer/service-placement) for details.
 
 
 ## Troubleshooting
