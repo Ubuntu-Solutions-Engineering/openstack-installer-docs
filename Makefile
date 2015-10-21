@@ -1,9 +1,12 @@
 
 build:
 	tools/mdbuild.py
-	cp -R media _build
-	cp -R resources _build
-	
+	@if [ -d media ]; then \
+		cp -R media _build; \
+	fi;
+	@if [ -d resources ]; then \
+		cp -R resources _build; \
+	fi;
 serve:
 	cd _build; python -m SimpleHTTPServer
 
