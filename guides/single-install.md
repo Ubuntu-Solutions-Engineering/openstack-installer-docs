@@ -77,7 +77,7 @@ the dashboard are:
 
 ## Troubleshooting
 
-See [Debugging a Single install](debugging:single-install)
+See [Debugging a Single install](https://wiki.ubuntu.com/OpenStack/Installer/debugging/single-install)
 
 ## Uninstalling
 
