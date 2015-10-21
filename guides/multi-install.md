@@ -4,7 +4,7 @@
 
 > An existing MAAS server is required for the Multi install option. If you do
 > not have a MAAS please visit
-> [[http://maas.ubuntu.com/docs1.8/install.html| MAAS Getting Started guide]]
+> [MAAS Getting Started guide](http://maas.ubuntu.com/docs1.8/install.html)
 > for more details.
 
 Multi-Installer has been tested on Ubuntu Server, which is the recommended OS for the cloud installer.
@@ -101,7 +101,7 @@ juju bootstrapped system.
 
 ## Accessing the OpenStack environment
 
-[[https://wiki.ubuntu.com/OpenStack/Installer/using-juju|See Using Juju in OpenStack Guide]]
+[See Using Juju in OpenStack Guide](https://wiki.ubuntu.com/OpenStack/Installer/using-juju)
 
 ## Tips
 
@@ -117,7 +117,7 @@ $ JUJU_BOOTSTRAP_TO=openstack-vm-bootstrap.maas sudo -E openstack-install
 
 ### Custom Placement for Multi-Install Deployments
 
-By default, the openstack installer will deploy services to available machines in your MAAS cluster based on the [[https://jujucharms.com/openstack|Canonical Reference Architecture for OpenStack]]. FIXME (It will use four)
+By default, the openstack installer will deploy services to available machines in your MAAS cluster based on the [Canonical Reference Architecture for OpenStack](https://jujucharms.com/openstack).
 
 If you want to change that layout to choose specific systems for a set of services, or install some of the services that are not deployed by default, you can use the Custom Placement UI by adding the ''--edit-placement'' flag to your openstack-install command line:
 
@@ -130,7 +130,7 @@ This will show a text-mode UI for choosing where to place services. See [[https:
 
 ## Troubleshooting
 
-Please see our [[https://wiki.ubuntu.com/OpenStack/Installer/debugging/multi-install|Multi Install Debugging]]
+Please see our [Multi Install Debugging](https://wiki.ubuntu.com/OpenStack/Installer/debugging/multi-install)
 
 The installer keeps its own logs in **$HOME/.cloud-install/commands.log**.
 
@@ -142,4 +142,4 @@ To uninstall and cleanup your system run the following
 $ sudo openstack-install -u
 ```
 
-> If it errors out during uninstall see [[https://wiki.ubuntu.com/OpenStack/Installer/debugging|manually uninstalling]]
+> If it errors out during uninstall see [manually uninstalling](https://wiki.ubuntu.com/OpenStack/Installer/debugging)
