@@ -40,7 +40,7 @@ iface br0 inet static
   address 172.16.0.1
   netmask 255.255.255.0
   bridge_ports eth1
-  ```
+```
 
 Below sets up the NAT for those interfaces, save to **/etc/network/iptables.rules**:
 
@@ -142,4 +142,4 @@ To uninstall and cleanup your system run the following
 $ sudo openstack-install -u
 ```
 
-> If it errors out during uninstall see [manually uninstalling](https://wiki.ubuntu.com/OpenStack/Installer/debugging)
+!!! Note: If it errors out during uninstall see [manually uninstalling](https://wiki.ubuntu.com/OpenStack/Installer/debugging)
