@@ -127,6 +127,12 @@ If you want to change that layout to choose specific systems for a set of servic
 
 This will show a text-mode UI for choosing where to place services. See [Placement UI Guide](https://wiki.ubuntu.com/OpenStack/Installer/service-placement) for details.
 
+### PuTTY Users
+
+If using PuTTY to run the installer from a Windows machine you can `CTRL+c` to
+copy the MAAS API key then in the PuTTY terminal press `SHIFT+INSERT` to paste
+the string.
+
 
 ## Troubleshooting
 
